@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1250px) {
+    .boxes {
+      flex-direction: column;
+    }
+  
+    .box {
+      margin: 0 0 10px 0;
+    }
+  
+    #contenedortitulo {
+      min-width: 55%;
+    }
+  }

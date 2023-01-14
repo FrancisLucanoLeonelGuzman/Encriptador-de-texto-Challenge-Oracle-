@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Encriptador de texto</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet"> <!--Responsive-->
+    <link href="img/icon.png" rel="icon">
+
+  </head>
+  <body>
+
+    <main class="main">
+
+      <div id="contenedortitulo">
+        <h1 class="titulo">Encriptador de texto</h1>
+      </div>
+  
+      <div class="boxes">
+        <div class="form box">
+          <form>
+            <p class="texto">Escribe tú mensaje para encriptar o desencriptar:</p>
+            <input class="text-input" id="validar-texto" type="text" name="validar-texto" placeholder="Ingrese el texto aqui">
+  
+            <input class="btn" id="btn-encriptar" type="submit" value="Encriptar">
+            <input class="btnde" id="btn-desencriptar" type="submit" value="Desencriptar">
+          </form>
+        </div>
+  
+        <div class="msg box">
+          <p class="texto">Mensaje encriptado/desencriptado:</p>
+          <input class="text-input" id="msg" type="text" placeholder="Mensaje" readonly="readonly">
+          <input class="btn" id="btn-copy" type="submit" value="Copiar Mensaje">
+        </div>
+      </div>
+    </main>
+
+  <script src="js/scripts.js"></script>
+  <script src="js/validartexto.js"></script>
+  <script src="js/encriptar.js"></script>
+  <script src="js/desencriptar.js"></script>
+  <script src="js/copiarmensaje.js"></script>
+  </body>
+</html>
